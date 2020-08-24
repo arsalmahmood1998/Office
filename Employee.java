@@ -1,11 +1,11 @@
 class Employee{
-private  String name;
-private  int age;
+  private  String name;
+  private  int age;
   Employee(String _name,int _age){
     name=_name;
     age=_age;
   }
-String getName(){
+  String getName(){
     return name;
   }
   int getAge(){
