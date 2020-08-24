@@ -1,4 +1,8 @@
-class Office{
+package OfficePackage;
+import EmployeesPackage.Employee;
+import HRPackage.HR;
+import AccountsPackage.Accounts;
+public class Office{
   public static void main (String [] args){
     System.out.println("Welcome to our Office");
     System.out.println("--------------------------");
@@ -10,7 +14,7 @@ class Office{
     Accounts displayAccountsEmployeeNames;
     HR hr;
     HR displayHREmployeeNames;
-    adil=new Employee("Adil",22);
+    adil=new Employee("Adil",22s);
     ali= new Employee("Ali",23);
     umair=new Employee("Umair",34);
     hamza=new Employee("Hamza",40);

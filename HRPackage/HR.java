@@ -1,19 +1,20 @@
-class Accounts{
+package HRPackage;
+public class HR{
   String name;
   String manager;
   int employeeCount;
-  Accounts(String _manager, int _employeeCount){
+  public HR(String _manager,int _employeeCount){
     manager=_manager;
     employeeCount=_employeeCount;
   }
-  Accounts(String _name){
+  public HR(String _name){
     name=_name;
   }
-  void details(){
-    System.out.println("Accounts department is managed by "+manager);
+  public void details(){
+    System.out.println("HR Department is managed by "+manager);
     System.out.println("There are "+employeeCount+ " employees in this Department");
   }
-  void employeNames(){
+  public void employeNames(){
     System.out.println(name+" works in this Department");
   }
 }
